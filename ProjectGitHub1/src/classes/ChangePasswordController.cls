@@ -8,6 +8,7 @@ public with sharing class ChangePasswordController {
     //Empty method to change password
     //Modified from GitHub
     //Modified from Eclipse 30-01-17
+    //Modified from GitRepository
     
     public PageReference changePassword() {
         return Site.changePassword(newPassword, verifyNewPassword, oldpassword);    
