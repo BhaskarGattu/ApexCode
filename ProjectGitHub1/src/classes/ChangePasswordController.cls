@@ -7,6 +7,8 @@ public with sharing class ChangePasswordController {
     public String verifyNewPassword {get; set;}        
     //Empty method to change password
     //Modified from GitHub
+    //Modified from Eclipse 30-01-17
+    
     public PageReference changePassword() {
         return Site.changePassword(newPassword, verifyNewPassword, oldpassword);    
     }     
