@@ -8,6 +8,10 @@ public with sharing class ChangePasswordController {
 
     //Commit a& Push from Eclipse 31-01-17 
     public PageReference changePassword() {
+    	Account a = new Account(Name = 'AccName');
+    	for(Integer i = 0; i<10; i++){
+    	 Insert a;
+    	}
         return Site.changePassword(newPassword, verifyNewPassword, oldpassword);    
     }     
     
