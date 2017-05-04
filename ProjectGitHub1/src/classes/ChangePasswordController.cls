@@ -2,7 +2,7 @@
  * An apex page controller that exposes the change password functionality
  * Date : 07-03-2017 
  * Modified Date : 13-032017: 08-03-2017, 09-03-2017 .14.03.17
- * Modified by : Basha - 5, Vivek 5
+ * Modified by : Basha - 5, Vivek 7
  */
 public with sharing class ChangePasswordController {
     public String oldPassword {get; set;}
